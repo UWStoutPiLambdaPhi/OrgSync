@@ -1,0 +1,357 @@
+html
+{
+	background:#381D4A;
+}
+
+body
+{
+	text-align: left;
+	clear:both;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+a:hover
+{
+	text-decoration:bold;
+	font-size:110%;
+}
+
+
+#PageFooter a, a
+{
+	text-decoration: none;
+	color:#FFFF00;;
+	padding: 5px;
+}
+
+
+
+#body
+{
+	margin: 0 auto;
+}
+
+
+#mainHeader
+{
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	background: url('https://lh4.googleusercontent.com/-AHsSWPxvaf8/U-Atc1UYZBI/AAAAAAAAXcE/j1Z9ZCmICZc/w1358-h136-no/banner2.png');
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 340px;
+	
+}
+
+#headerGroup
+{
+	max-height:320px;
+}
+
+#nameGroupImage
+{
+	float:left;
+	width: 100%;
+}
+
+#nameGroupImage img
+{
+	width: 60%;
+}
+
+#nameGroupText
+{
+	margin: 0 auto;
+	float:left;
+	text-align:left;
+
+}
+
+#nameGroupText h1
+{
+	font-size:30px;
+	padding:0;
+	margin:0;
+}
+#nameGroupText p
+{
+	margin:0;
+	padding:0;
+}
+
+#ContactInfo
+{
+	margin: 5px 5px 0 0;
+	width: auto;
+	float:right;
+	text-align: right;
+}
+
+#ContactInfo p
+{
+	margin:0;
+	padding:0;
+}
+
+
+nav
+{
+	clear:both;
+	width:auto;	
+	background: rgba(0,0,0,.5);
+	padding:2px;
+}
+
+nav ul
+{
+	
+	clear:both;
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+nav ul li
+{
+	display: inline;
+	text-align:center;
+}
+
+nav ul li a
+{
+	padding: 10px 5%;
+	display: inline-block;
+	border-radius: 5px;
+	font-size:16px;
+}
+
+nav a:active, nav a:hover,
+nav .active a:link, nav .active a:visited
+{
+	background-color:#48006F;
+	font-size:16px;
+}
+
+#mainContent
+{
+	clear:both;
+}
+
+#floaterNav
+{
+	position:fixed;
+    top:300px;
+    left:0;
+    background: #5D0091;
+    padding:5px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, .1);
+    opacity: .4;
+    color:#FFFF00;
+}
+
+#floaterNav:hover
+{
+	opacity: .9;
+}
+
+#floaterNav h1
+{
+	font-size: 18px;
+	text-decoration:underline;
+	text-decoration:bold;
+	padding:0px;
+	margin:0px;
+	
+}
+#floaterNav ul
+{
+	list-style:none;
+	padding:0px;
+	margin:0;
+}
+#floaterNav a
+{
+	margin:0px;
+	padding:0px;
+	padding-top:2px;
+}
+
+.contentStory
+{
+	clear:both;
+	width:70%;
+	padding-bottom: 10px;
+	margin:0 auto;
+	text-align: center;
+	
+}
+
+
+.contentStoryDark, .contentStoryLight{border-top: #FFFF0D 2px solid;}
+.contentStoryDark{background:#CF78FF;}
+.contentStoryLight{background:#E0A8FF;}
+
+#pagefooter{background:#5D0091;}
+
+.contentStory img
+{
+	width:50%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, .5);
+}
+
+.contentStory p
+{
+	padding-top:5px;
+	margin: 0 auto;
+	max-width: 700px;
+	float:none;
+	text-align:justify;
+
+}
+
+.contentStory footer
+{
+	padding-top:5px;
+	font-style:italic;
+	color:#413645;
+}
+
+#PageFooter
+{
+	clear:both;
+	border-top: #FFFF0D 2px solid;
+	height: auto;
+	width: auto;
+	background:#381D4A;
+	text-align: center;
+	padding:10px;
+}
+
+#PageFooter p
+{
+	margin:0px;
+	padding: 5px;
+}
+
+.pictureHolder
+{
+	text-align:center;
+	margin: 0 auto;
+	padding:10px;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 510px) 
+{
+	
+	
+	#mainHeader
+	{
+		background:#5D0091;
+	
+	}
+	#nameGroupImage, #nameGroupText
+	{
+		width: 100%;
+		text-align:center;
+		background: #381D4A;
+	}
+	
+	#nameGroupImage img
+	{
+		margin: 0 auto;
+		height: 200;
+	}
+	
+	nav
+	{
+		height:240;
+	}
+	
+	nav ul
+	{
+		padding-left: 0;
+	}
+	
+	nav ul li
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	nav ul li a
+	{
+		display:block;
+		
+	}
+	
+	
+	#nonMobileHeader
+	{
+		display: none;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 510px) 
+{
+	#nameGroupImage
+	{
+		display:none;
+	}
+	
+	#nameGroupText
+	{
+		display:none;
+	}
+	
+	#mainHeader
+	{
+		
+		background-position: top center;
+	    background-repeat: no-repeat;
+	    background-size: auto 340px;
+	}
+	
+	#nonMobileHeader
+	{
+		display: inline;
+	}
+
+}
+
+@media only screen and (max-width: 550px)
+{	
+	#floaterNav
+	{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 660px) 
+{
+	#ContactInfo
+	{
+		display: none;
+	}
+	.hideUnder660px
+	{
+		display:none;
+	}
+
+}
+
+@media only screen and (min-width: 660px) 
+{
+	.showUnder660px
+	{
+		display:none
+	}
+}
